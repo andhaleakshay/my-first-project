@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Module solution
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+	<meta charset="utf-8">
+	<meta name="author" content="Janet Kajuja">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header><h1>Our Menu</h1></header>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<section>
+
+
+					<p><h4 class="title">Chicken</h4>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum est eget nunc interdum varius. Nulla neque est, ultricies sed elementum rutrum, euismod at nulla. Sed sed metus ante. Ut pretium libero vel justo aliquet facilisis. Fusce ut fermentum augue. Ut id ipsum ac ipsum pellentesque auctor at in felis. Integer ut gravida sapien. Integer nec congue urna. Pellentesque a ligula enim. Aliquam sed mi nunc. Donec consectetur lacinia lorem, quis volutpat odio malesuada ut. Integer quis ultrices arcu. Integer id scelerisque ante, et lobortis nisi. Ut eleifend, sapien ac consequat mattis, felis augue interdum ipsum, a accumsan purus velit vitae nisl. Vestibulum tincidunt ipsum eu nibh tristique, quis fermentum velit laoreet.</p>
+
+				</section>
+			</div>
+			<div class="col-lg-4 col-md-6">
+				<section>
+
+					<p><h4 class="titlek">Beef</h4>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum est eget nunc interdum varius. Nulla neque est, ultricies sed elementum rutrum, euismod at nulla. Sed sed metus ante. Ut pretium libero vel justo aliquet facilisis. Fusce ut fermentum augue. Ut id ipsum ac ipsum pellentesque auctor at in felis. Integer ut gravida sapien. Integer nec congue urna. Pellentesque a ligula enim. Aliquam sed mi nunc. Donec consectetur lacinia lorem, quis volutpat odio malesuada ut. Integer quis ultrices arcu. Integer id scelerisque ante, et lobortis nisi. Ut eleifend, sapien ac consequat mattis, felis augue interdum ipsum, a accumsan purus velit vitae nisl. Vestibulum tincidunt ipsum eu nibh tristique, quis fermentum velit laoreet.</p></section>
+			</div>
+			<div class="col-lg-4 col-md-12">
+				<section>
+					<p><h4 class="titlel">Suchi</h4>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum est eget nunc interdum varius. Nulla nseque est, ultricies sed elementum rutrum, euismod at nulla. Sed sed metus ante. Ut pretium libero vel justo aliquet facilisis. Fusce ut fermentum augue. Ut id ipsum ac ipsum pellentesque auctor at in felis. Integer ut gravida sapien. Integer nec congue urna. Pellentesque a ligula enim. Aliquam sed mi nunc. Donec consectetur lacinia lorem, quis volutpat odio malesuada ut. Integer quis ultrices arcu. Integer id scelerisque ante, et lobortis nisi. Ut eleifend, sapien ac consequat mattis, felis augue interdum ipsum, a accumsan purus velit vitae nisl. Vestibulum tincidunt ipsum eu nibh tristique, quis fermentum velit laoreet.
+				</p></section>
+			</div>
+		</div>
+
+
+</div>
+</body>
+</html> 
+ 76  module2/style.css 
+@@ -0,0 +1,76 @@
+*{
+	box-sizing: content-box;
+}
+header{
+text-align: center;
+color: green;
+padding: 5px;
+margin: 10px;
+font-size: 25% 
+
+}
+section{
+	background-color: gray;
+	padding: 30px;
+	margin:20px;
+	box-sizing: border-box;
+	border: 3px solid black;
+	font-size: 75%
+
+}
+
+.row{
+	width: 100%;
+}
+@media(min-width: 992px) and (max-width: 1500px){
+	.col-md-6, .col-md-6, .col-md-12{
+		float: left;
+
+	}
+}
+@media(min-width: 768px) and (max-width:  991px){
+	.col-md-6, .col-md-6, .col-md-12{
+		float: left;
+
+	}
+	.col-md-12{
+		width: 100%;
+	}
+}
+@media(min-width: 767px){
+	.col-md-6, .col-md-6, .col-md-12{
+		float: left;
+
+	}
+}
+.title{
+	position: absolute;
+	right: 35px;
+	padding: 10px;
+
+	background-color: rgb(160,60,100);
+	border:3px solid black;
+
+}
+.titlek{
+	position: absolute;
+	right: 35px;
+	color: white;
+
+	background-color: rgb(60,160,130);
+	border:3px solid black;
+
+}
+.titlel{
+	position: absolute;
+	right: 35px;
+	padding: 10px;
+
+	background-color:rgb(160,130,60);
+	border:3px solid black;
+
+}
+h4{
+	padding: 5px;
+	top: 20px;
+} 
